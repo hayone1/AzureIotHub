@@ -1,0 +1,1078 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8071 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/User/Documents/GitHub/AzureIotHub
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53099
+Successfully changed project path to: C:/Users/User/Documents/GitHub/AzureIotHub
+C:/Users/User/Documents/GitHub/AzureIotHub
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 381.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/AzureIotHub/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 515 (ID=0x191e)
+    Vendor:   
+    VRAM:     4035 MB
+    Driver:   27.20.100.9126
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005221 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 150.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.944 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.104381 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of DotNetty.Transport.Channels.Pool.ChannelActiveHealthChecker:IsHealthyAsync due to: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff64460d736 (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of Microsoft.ServiceBus.ManagedIdentityTokenProvider:.ctor due to: Could not load file or assembly 'Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. assembly:Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff64460d736 (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/DotNetty.Transport.0.6.0/lib/net45/DotNetty.Transport.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff64460d736 (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/WindowsAzure.ServiceBus.6.1.1/lib/net462/Microsoft.ServiceBus.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff64460d736 (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 130.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Restoring NuGet Packages
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.880 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1937 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 58.8 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 6.528300 ms (FindLiveObjects: 0.416000 ms CreateObjectMapping: 0.184800 ms MarkObjects: 5.783500 ms  DeleteObjects: 0.141100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/newerTest.cs
+  artifactKey: Guid(e9e34ced880bd784a970d9942877685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/newerTest.cs using Guid(e9e34ced880bd784a970d9942877685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72196e360e49eeebad193674b876e3d7') in 0.124012 seconds
+  Import took 0.163202 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039229 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of DotNetty.Transport.Channels.Pool.ChannelActiveHealthChecker:IsHealthyAsync due to: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of Microsoft.ServiceBus.ManagedIdentityTokenProvider:.ctor due to: Could not load file or assembly 'Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. assembly:Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/DotNetty.Transport.0.6.0/lib/net45/DotNetty.Transport.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/WindowsAzure.ServiceBus.6.1.1/lib/net462/Microsoft.ServiceBus.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.364 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1929 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 6.499200 ms (FindLiveObjects: 0.687800 ms CreateObjectMapping: 0.275200 ms MarkObjects: 5.434200 ms  DeleteObjects: 0.098100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038915 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of DotNetty.Transport.Channels.Pool.ChannelActiveHealthChecker:IsHealthyAsync due to: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of Microsoft.ServiceBus.ManagedIdentityTokenProvider:.ctor due to: Could not load file or assembly 'Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. assembly:Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/DotNetty.Transport.0.6.0/lib/net45/DotNetty.Transport.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/WindowsAzure.ServiceBus.6.1.1/lib/net462/Microsoft.ServiceBus.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.455 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2440.
+Total: 3.552500 ms (FindLiveObjects: 0.473000 ms CreateObjectMapping: 0.182500 ms MarkObjects: 2.838800 ms  DeleteObjects: 0.056500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.037015 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of DotNetty.Transport.Channels.Pool.ChannelActiveHealthChecker:IsHealthyAsync due to: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of Microsoft.ServiceBus.ManagedIdentityTokenProvider:.ctor due to: Could not load file or assembly 'Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. assembly:Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/DotNetty.Transport.0.6.0/lib/net45/DotNetty.Transport.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/WindowsAzure.ServiceBus.6.1.1/lib/net462/Microsoft.ServiceBus.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.734 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2479.
+Total: 3.454900 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.999100 ms  DeleteObjects: 0.062800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038149 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of DotNetty.Transport.Channels.Pool.ChannelActiveHealthChecker:IsHealthyAsync due to: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of Microsoft.ServiceBus.ManagedIdentityTokenProvider:.ctor due to: Could not load file or assembly 'Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. assembly:Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/DotNetty.Transport.0.6.0/lib/net45/DotNetty.Transport.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/WindowsAzure.ServiceBus.6.1.1/lib/net462/Microsoft.ServiceBus.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.529 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 5.652000 ms (FindLiveObjects: 0.454500 ms CreateObjectMapping: 0.188700 ms MarkObjects: 4.929800 ms  DeleteObjects: 0.076800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.081778 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of DotNetty.Transport.Channels.Pool.ChannelActiveHealthChecker:IsHealthyAsync due to: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of Microsoft.ServiceBus.ManagedIdentityTokenProvider:.ctor due to: Could not load file or assembly 'Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. assembly:Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/DotNetty.Transport.0.6.0/lib/net45/DotNetty.Transport.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/WindowsAzure.ServiceBus.6.1.1/lib/net462/Microsoft.ServiceBus.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.050 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 6.874500 ms (FindLiveObjects: 0.713100 ms CreateObjectMapping: 0.266000 ms MarkObjects: 5.742700 ms  DeleteObjects: 0.150300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.078592 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of System.Text.Json.JsonEncodedText:Encode due to: Could not load file or assembly 'System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of Microsoft.Extensions.Azure.EventHubClientBuilderExtensions:AddEventHubProducerClient due to: Could not load file or assembly 'Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of System.Diagnostics.ActivityTraceId:CreateFromBytes due to: Could not load file or assembly 'System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of Azure.Core.Pipeline.TaskExtensions:AwaitWithCancellation due to: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of DotNetty.Transport.Channels.Pool.ChannelActiveHealthChecker:IsHealthyAsync due to: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. assembly:System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Error: Could not load signature of Microsoft.ServiceBus.ManagedIdentityTokenProvider:.ctor due to: Could not load file or assembly 'Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. assembly:Microsoft.Azure.Services.AppAuthentication, Version=1.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 type:<unknown type> member:(null) signature:<none>
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438bf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff6438d2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/System.Text.Json.4.6.0/lib/net461/System.Text.Json.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/Azure.Messaging.EventHubs.5.4.1/lib/netstandard2.0/Azure.Messaging.EventHubs.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/System.Diagnostics.DiagnosticSource.4.6.0/lib/net46/System.Diagnostics.DiagnosticSource.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/System.Threading.Channels.4.6.0/lib/netstandard2.0/System.Threading.Channels.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/Azure.Core.1.14.0/lib/net461/Azure.Core.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/Azure.Messaging.EventHubs.Processor.5.4.1/lib/netstandard2.0/Azure.Messaging.EventHubs.Processor.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/Azure.Storage.Common.12.7.0/lib/netstandard2.0/Azure.Storage.Common.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/Azure.Storage.Blobs.12.8.0/lib/netstandard2.0/Azure.Storage.Blobs.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/DotNetty.Transport.0.6.0/lib/net45/DotNetty.Transport.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Packages/WindowsAzure.ServiceBus.6.1.1/lib/net462/Microsoft.ServiceBus.dll, this assembly can cause crashes in the runtime
+0x00007ff643a98c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff643aa1069 (Unity) StackWalker::ShowCallstack
+0x00007ff644f7564c (Unity) GetStacktrace
+0x00007ff646034803 (Unity) DebugStringToFile
+0x00007ff6438dbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff6438d330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff6438da339 (Unity) MonoManager::ReloadAssembly
+0x00007ff644c843a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff644c8484e (Unity) LoadUserAssemblies
+0x00007ff6450a7f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6451720d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff645174230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6451779be (Unity) asio::io_service::run
+0x00007ff6450edd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6450edda0 (Unity) RunAssetImporterV2
+0x00007ff64460d73b (Unity) Application::InitializeProject
+0x00007ff644f82be2 (Unity) WinMain
+0x00007ff646dc8fc6 (Unity) __scrt_common_main_seh
+0x00007ffa32ce7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa33e7d0d1 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 2602.
+Total: 8.693200 ms (FindLiveObjects: 0.684200 ms CreateObjectMapping: 1.416700 ms MarkObjects: 6.458400 ms  DeleteObjects: 0.129900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
